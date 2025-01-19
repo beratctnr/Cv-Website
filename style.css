@@ -1,0 +1,100 @@
+body{margin:0;
+}
+.bigbar{
+    background-color: darkmagenta;
+    height: 90%;
+}
+.headbar{
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.navbar a{
+    padding-left: 30px; 
+    text-decoration:none;
+    color: white;
+}
+.headbar .contact{
+    text-decoration: none ;
+    background-color: white;
+    color:darkmagenta;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+.contact:hover{
+    opacity: 0.8;
+}
+.aboutme{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
+}
+.aboutme p{
+    width: 50%;
+}
+.skills{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 11% 0 20%;
+
+}
+.yetenek li{
+    list-style: none;
+    padding-right: 20px;
+}
+.yetenek{
+    display: flex;
+}
+.title{
+    color: white;
+    display: block;
+    justify-self: center;
+    font-size: 55px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+.blog{
+    padding: 100px 20%;
+}
+.blog .blogdate{
+    margin: 0 0 50 0;
+    font-size: 15px;
+    font-weight: 200;
+}
+.blog .blogtitle{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.education{
+    background-color: lightgray;
+    padding: 64px 20%;
+}
+.live{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;    
+    border-radius: 30px;
+    padding: 0 15px;
+}
+.education .date{ 
+    opacity: 0.8;
+    font-size: 12px;
+}
+.livetitle{
+    font-size: 60px;
+}
+.contact{
+    background-color: black;
+    padding:50px ;
+    text-align: center;
+}
+.contact img{
+    width: 30px;
+    height: 30px;
+   margin: 15px;
+}
